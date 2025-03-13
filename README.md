@@ -15,7 +15,7 @@ We compare **City Hotels vs. Resort Hotels** and investigate factors affecting c
 ✔ **Cancellations are higher in City Hotels** due to flexible policies.  
 ✔ Price variations between hotels can impact revenue strategies.  
 
-##This is my python Project code
+## This is my python Project code
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
