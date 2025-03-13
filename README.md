@@ -24,7 +24,6 @@ import warnings
 warnings.filterwarnings('ignore')
 df=pd.read_csv("C:\\Users\\Aravind kumar\\Downloads\\hotel_booking.csv\\hotel_booking.csv")
 
-
 ```
 #1
 ```python
@@ -36,6 +35,8 @@ plt.bar(["Not cancled","Canceled"],df['is_canceled'].value_counts(),edgecolor='k
 plt.show()
 plt.savefig("Reservation status count.png", dpi=300, bbox_inches='tight')
 ```
+![image](https://github.com/user-attachments/assets/d30150a0-56e2-47fe-a999-e997814a0f63)
+
 #2
 ```python
 plt.figure(figsize=(8,4))
@@ -50,6 +51,8 @@ plt.savefig("reservation2.jpg", dpi=300, bbox_inches='tight')
 plt.show()
 
 ```
+![image](https://github.com/user-attachments/assets/182ed15e-b54c-4f90-8e22-267d841ea8f0)
+
 #3
 ```python
 resort_hotel=df[df['hotel']=='Resort Hotel']
@@ -66,6 +69,8 @@ plt.legend(fontsize=20)
 plt.savefig("daily.png", dpi=300, bbox_inches='tight')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/8528f3c1-367b-4636-8317-025b2e9d985e)
+
 #4
 ```python
 df['month']=df['reservation_status_date'].dt.month
@@ -80,6 +85,8 @@ plt.legend(['not canceled','canceled'])
 plt.savefig("month.jpg", dpi=300, bbox_inches='tight')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/df2706e5-b325-4bd7-8b86-7c47092d5aa9)
+
 #5
 ```python
 import matplotlib.pyplot as plt
@@ -92,6 +99,8 @@ plt.title("ADR per Month", fontsize=20)
 plt.show()
 
 ```
+![image](https://github.com/user-attachments/assets/37f321de-1fa0-48ca-a92e-f592f750d62b)
+
 #6
 ```python
 cancelled_data=df[df['is_canceled']==1]
@@ -125,3 +134,5 @@ plt.show()http://localhost:8888/files/Untitled12.ipynb?_xsrf=2%7Ce2e9a376%7Ca6fd
 df=pd.read_csv("C:\\Users\\Aravind kumar\\Downloads\\hotel_booking.csv\\hotel_booking.csv")
 
 ```
+![image](https://github.com/user-attachments/assets/7d4e1e83-09d8-408f-b0ec-f95ed737f33b)
+
