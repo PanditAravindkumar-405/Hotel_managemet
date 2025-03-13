@@ -14,7 +14,7 @@ We compare **City Hotels vs. Resort Hotels** and investigate factors affecting c
 ✔ **Peak months** (July-August) see increased ADR (Average Daily Rate).  
 ✔ **Cancellations are higher in City Hotels** due to flexible policies.  
 ✔ Price variations between hotels can impact revenue strategies.  
-#This is my python Proect code
+##This is my python Proect code
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
