@@ -1,3 +1,20 @@
+#Hotel Booking Data Analysis
+# 📊 Hotel Booking Data Analysis
+
+## 🏨 Overview
+This project analyzes hotel booking data to uncover trends in **cancellations, pricing (ADR), and customer behavior**.  
+We compare **City Hotels vs. Resort Hotels** and investigate factors affecting cancellations and revenue.
+
+## 📂 Dataset
+- The dataset contains information on hotel reservations, customer details, booking status, and revenue.
+- **Key columns:** `hotel`, `is_canceled`, `reservation_status_date`, `adr`, `arrival_date_month`, etc.
+
+## 🔍 Key Insights
+✔ **Resort Hotels** have higher prices but lower cancellation rates.  
+✔ **Peak months** (July-August) see increased ADR (Average Daily Rate).  
+✔ **Cancellations are higher in City Hotels** due to flexible policies.  
+✔ Price variations between hotels can impact revenue strategies.  
+#This is my python Proect code
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
