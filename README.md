@@ -101,10 +101,11 @@ plt.title('Top 10 countries with reservation canceled')
 plt.pie(top_10_country,autopct='%.2f',labels=top_10_country.index)
 plt.savefig("pie.jpg", dpi=300, bbox_inches='tight')
 plt.show()
-![image](https://github.com/user-attachments/assets/cb399702-75c7-4c9e-a249-61e6414f6545)
 
 
 ```
+![image](https://github.com/user-attachments/assets/b0b7449b-4da4-450f-9a24-8af75ca5e71a)
+
 #7
 ```python
 cancelled_df_adr=cancelled_data.groupby('reservation_status_date')[['adr']].mean()
