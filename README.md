@@ -24,6 +24,7 @@ import warnings
 warnings.filterwarnings('ignore')
 df=pd.read_csv("C:\\Users\\Aravind kumar\\Downloads\\hotel_booking.csv\\hotel_booking.csv")
 
+
 ```
 #1
 ```python
@@ -100,6 +101,8 @@ plt.title('Top 10 countries with reservation canceled')
 plt.pie(top_10_country,autopct='%.2f',labels=top_10_country.index)
 plt.savefig("pie.jpg", dpi=300, bbox_inches='tight')
 plt.show()
+![image](https://github.com/user-attachments/assets/cb399702-75c7-4c9e-a249-61e6414f6545)
+
 
 ```
 #7
@@ -117,5 +120,7 @@ plt.plot(not_cancelled_df_adr['reservation_status_date'],not_cancelled_df_adr['a
 plt.plot(cancelled_df_adr['reservation_status_date'],cancelled_df_adr['adr'],label='cancelled')
 plt.legend()
 plt.savefig("average2.jpg", dpi=300, bbox_inches='tight')
-plt.show()
+plt.show()http://localhost:8888/files/Untitled12.ipynb?_xsrf=2%7Ce2e9a376%7Ca6fd622573c85a9d93361cc35b7f6412%7C1739705102
+df=pd.read_csv("C:\\Users\\Aravind kumar\\Downloads\\hotel_booking.csv\\hotel_booking.csv")
+
 ```
